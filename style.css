@@ -65,6 +65,35 @@ video {
   width: 100vw;
 }
 
+.landing-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.landing-text-wrapper {
+  color: rgb(0, 0, 0);
+  max-width: 50%;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 1em;
+}
+
+.landing-text-wrapper p {
+  font-size: 2.2em;
+  text-align: left;
+}
+
+.landing-text-wrapper h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.2em;
+  text-align: left;
+}
+
 .element {
   padding: 0.5em;
   height: 31em;
@@ -100,21 +129,4 @@ p {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-}
-
-.landing-wrapper {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 2vw;
-}
-.landing-text {
-  color: rgb(0, 0, 0);
-  max-width: 50%;
-  font-size: 2.2em;
-  text-align: left;
-  align-self: center;
-  margin-top: 1em;
 }
