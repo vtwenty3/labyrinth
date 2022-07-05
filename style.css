@@ -12,6 +12,12 @@ body {
   }
 }
 
+@media screen and (max-width: 1922px) {
+  body {
+    font-size: 45%;
+  }
+}
+
 .navbar {
   backdrop-filter: blur(10px);
   background-color: #bdb58b51;
@@ -85,28 +91,26 @@ video {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 2vw;
+  height: 24vh;
 }
 
 .landing-text-wrapper {
   color: rgb(0, 0, 0);
   max-width: 50%;
   flex-direction: column;
-  align-self: flex-start;
-  margin-top: 2.5em;
+  align-self: center;
 }
 
 .landing-text-wrapper p {
-  font-size: 2.2em;
+  font-size: 2.3em;
   text-align: left;
 }
 
 .landing-text-wrapper h1 {
-  padding: 0;
-  margin-top: -0.4em;
-
-  margin-bottom: 0.1em;
+  margin: 0.1em;
+  margin-top: -0.7em;
   font-size: 4.5em;
   text-align: left;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.251);
