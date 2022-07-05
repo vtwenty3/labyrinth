@@ -79,7 +79,6 @@ video {
   max-width: 50%;
   flex-direction: column;
   align-self: center;
-  margin-top: 1em;
 }
 
 .landing-text-wrapper p {
@@ -90,6 +89,7 @@ video {
 .landing-text-wrapper h1 {
   padding: 0;
   margin: 0;
+  margin-bottom: 0.1em;
   font-size: 4.2em;
   text-align: left;
 }
