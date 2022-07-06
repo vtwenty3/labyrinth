@@ -6,22 +6,25 @@ body {
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 1922px) {
+@media screen and (max-width: 1922px), screen and (max-height: 900px) {
   body {
     font-size: 45%;
   }
 }
 
-@media screen and (max-width: 1922px) {
+@media screen and (max-width: 1222px) {
   body {
-    font-size: 45%;
+    font-size: 35%;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .navbar {
   backdrop-filter: blur(10px);
   background-color: #bdb58b51;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,7 +33,7 @@ body {
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .navbar a {
@@ -74,7 +77,8 @@ body {
 
 video {
   object-fit: cover;
-  width: 100vw;
+  position: fixed;
+  width: 100%;
   height: 75vh;
   top: 0;
   left: 100;
@@ -83,7 +87,7 @@ video {
 .video-wrapper {
   object-fit: cover;
   height: 76vh;
-  width: 100vw;
+  width: 100%;
 }
 
 .landing-wrapper {
@@ -94,6 +98,7 @@ video {
   align-items: flex-start;
   gap: 2vw;
   height: 24vh;
+  background-color: #bdb58b;
 }
 
 .landing-text-wrapper {
@@ -121,7 +126,7 @@ video {
   height: 31em;
   width: 23em;
   background-color: #d9d9d9;
-  z-index: 10;
+  z-index: 1;
   margin-top: -14em;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
 }
@@ -162,4 +167,49 @@ p {
 
 .element-btn :hover {
   color: #202020;
+}
+
+.about-bg {
+  background: url(img/aboutus.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  min-height: 100vh;
+}
+.text-box-wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 13vw;
+  height: 100vh;
+  width: 60%;
+}
+
+.text-box {
+  height: 15em;
+  width: 63em;
+  background-color: #e3dfcbe3;
+  color: #000000;
+  padding: 1em;
+}
+
+.text-box p {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.text-box h2 {
+  margin: 0;
+  padding-bottom: 0.5em;
+  font-size: 2em;
+  text-align: left;
+}
+
+#box1 {
+  align-self: flex-end;
+}
+#box2 {
+  align-self: flex-start;
 }
