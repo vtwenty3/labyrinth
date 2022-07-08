@@ -279,7 +279,7 @@ p {
 }
 
 .artist-box h1 {
-  font-size: 5em;
+  font-size: 2.7rem;
   color: white;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
@@ -288,3 +288,31 @@ p {
   height: 100vh;
   width: 60%;
 }
+
+.contacts-bg {
+  background: url(img/contacts.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.contacts-wrapper {
+  position: absolute;
+  font-size: 1.2rem;
+  left: 23rem;
+  top: 10rem;
+  color: white;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
+}
+
+.fb-page {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
+}
+
+/* .filler2 {
+  height: 100vh;
+  width: 30%;
+} */
