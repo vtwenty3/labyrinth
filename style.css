@@ -8,7 +8,7 @@ body {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 1922px), screen and (max-height: 900px) {
   body {
-    font-size: 55%;
+    font-size: 48%;
   }
 }
 
