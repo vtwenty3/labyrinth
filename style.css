@@ -1,8 +1,22 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
   margin: 0;
   font-size: 62.5%;
   background-color: #bdb58b;
+}
+
+@font-face {
+  font-family: "Imperator";
+  src: url("files/imperator.woff") format("woff");
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -48,14 +62,16 @@ html {
 }
 
 .nav-left a {
-  font-weight: 500;
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+
   font-size: 3em;
   margin-left: 0.2em;
   text-shadow: #0000002d 2px 2px 2px;
 }
 
 .nav-right a {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 2.2em;
   padding: 1em;
 }
@@ -130,7 +146,7 @@ video {
 
 .element {
   padding: 0.5em;
-  height: 31em;
+  height: 32em;
   width: 23em;
   background-color: #d9d9d9;
   z-index: 1;
@@ -149,11 +165,12 @@ p {
 }
 
 .element h2 {
-  font-size: 1.6em;
+  font-size: 2em;
 }
 
 .element p {
-  font-size: 1.4em;
+  font-size: 1.6em;
+  font-weight: 500;
 }
 
 .element a {
@@ -211,7 +228,7 @@ p {
 }
 
 .text-box {
-  height: 20em;
+  height: 18em;
   width: 70em;
   background-color: #e3dfcbe3;
   color: #000000;
