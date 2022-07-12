@@ -179,7 +179,11 @@ p {
 }
 
 .about-bg {
+  /* linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
+    url(img/aboutus-mobile.jpg); */
+
   background: url(img/aboutus-mobile.jpg);
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -260,38 +264,32 @@ p {
 .social-icons i:hover {
   color: white;
 }
-/*
+
 .artist-bg {
-  background: url(img/artist.jpg);
+  background: url(img/artist-mobile.jpg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   background-size: cover;
+  min-height: 100vh;
   position: relative;
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  align-items: center;
   background-attachment: fixed;
 }
 
 .artist-box {
-  flex-shrink: 10;
-  max-width: 55em;
-  margin-right: 20em;
-}
-.artist-box p {
-  background-color: #e3dfcbe3;
-  padding: 1em;
+  position: absolute;
+  bottom: 5vh;
+  text-align: center;
   font-size: 2.3em;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
+  background-color: #e3dfcbe3;
+  max-width: 80vw;
+  padding: 1em;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
-.artist-box h1 {
-  font-size: 4.7em;
-  color: white;
-  text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
-}
+/*
+
 .filler {
   height: 100vh;
   width: 60%;
