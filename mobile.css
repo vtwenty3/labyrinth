@@ -127,6 +127,7 @@ video {
   display: flex;
   justify-content: space-evenly;
   min-width: 80%;
+  max-width: 95%;
   gap: 2em;
 }
 .element {
