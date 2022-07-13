@@ -93,7 +93,7 @@ video {
 }
 .video-wrapper {
   object-fit: cover;
-  height: 36vh;
+  height: 34vh;
   width: 100%;
 }
 
@@ -104,7 +104,7 @@ video {
   flex-direction: column-reverse;
   justify-content: flex-end;
   align-items: center;
-  gap: 7em;
+  gap: 5em;
 }
 
 .landing-text-wrapper {
@@ -190,7 +190,7 @@ p {
 .about-bg {
   /* linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
     url(img/aboutus-mobile.jpg); */
-  margin-top: 65vh;
+  margin-top: 66vh;
   background: url(img/aboutus-mobile.jpg);
 
   background-repeat: no-repeat;
