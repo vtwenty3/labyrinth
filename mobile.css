@@ -93,7 +93,7 @@ video {
 }
 .video-wrapper {
   object-fit: cover;
-  height: 40vh;
+  height: 36vh;
   width: 100%;
 }
 
@@ -104,12 +104,7 @@ video {
   flex-direction: column-reverse;
   justify-content: flex-end;
   align-items: center;
-  gap: 5em;
-  background-image: linear-gradient(#bdb58b, #bdb58b 100%);
-
-  background-size: 100% 40vh;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  gap: 7em;
 }
 
 .landing-text-wrapper {
@@ -195,7 +190,7 @@ p {
 .about-bg {
   /* linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)),
     url(img/aboutus-mobile.jpg); */
-  margin-top: 60vh;
+  margin-top: 65vh;
   background: url(img/aboutus-mobile.jpg);
 
   background-repeat: no-repeat;
