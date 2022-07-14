@@ -6,11 +6,6 @@ body {
   background-color: #bdb58b;
 }
 
-@font-face {
-  font-family: "Imperator";
-  src: url("files/imperator.woff") format("woff");
-}
-
 h1 {
   font-family: "Cinzel", serif;
 }
@@ -341,7 +336,54 @@ p {
   height: 1rem;
 }
 
+.gallery {
+  background-color: #202020;
+}
+.gallery h1 {
+  margin: 0;
+  padding: 1em;
+  margin-bottom: -3em;
+  text-align: center;
+  color: rgb(151, 151, 151);
+  font-size: 3em;
+}
+
+.video-player2 {
+  padding: 40% 0 0 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-selector {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  padding-bottom: 10em;
+}
+
+.video-selector img {
+  height: auto;
+  width: 23.3em;
+}
+
+.video-selector img:hover {
+  outline: 10px solid black;
+}
+
 /* .filler2 {
   height: 100vh;
   width: 30%;
+} */
+/* 
+.video-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } */
