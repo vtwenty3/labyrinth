@@ -66,9 +66,9 @@ html {
 }
 
 .nav-right a {
-  font-weight: 500;
-  font-size: 2.2em;
-  padding: 1em;
+  font-weight: 600;
+  font-size: 2.4em;
+  padding: 0.8em;
 }
 
 .nav-right {
@@ -229,7 +229,7 @@ p {
 }
 
 .text-box {
-  height: 18em;
+  height: 20.5em;
   width: 70em;
   background-color: #e3dfcbe3;
   color: #000000;
@@ -237,14 +237,14 @@ p {
 }
 
 .text-box p {
-  font-size: 1.8em;
+  font-size: 2.2em;
   text-align: justify;
 }
 
 .text-box h2 {
   margin: 0;
   padding-bottom: 0.5em;
-  font-size: 2.5em;
+  font-size: 3em;
   text-align: left;
 }
 
@@ -262,10 +262,11 @@ p {
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
+  margin-bottom: -1em;
 }
 
 .social-icons {
-  font-size: 2.5em;
+  font-size: 2.7em;
   gap: 1em;
 }
 
@@ -298,7 +299,7 @@ p {
 .artist-box p {
   background-color: #e3dfcbe3;
   padding: 1em;
-  font-size: 2.3em;
+  font-size: 2.6em;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
 }
 
@@ -320,21 +321,48 @@ p {
   background-size: cover;
   min-height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40vw;
+  gap: 2em;
 }
 
-.contacts-wrapper {
-  position: absolute;
-  font-size: 1.2rem;
-  left: 23rem;
-  top: 10rem;
+.contacts-bg h1 {
+  padding: 0;
+  margin-top: 0.8em;
+  margin-bottom: 0.4em;
+  font-size: 2.5rem;
   color: white;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
 }
 
+.contacts-wrapper p {
+  color: white;
+  font-size: 2.5em;
+}
+
+.contacts-wrapper {
+  text-align: center;
+  margin-top: 1.3em;
+}
+
+.social-icons-contacts {
+  align-items: center;
+  justify-content: center;
+  font-size: 6em;
+  color: white;
+}
+
+.social-icons-contacts i {
+  margin-top: -0.3em;
+  padding: 0.5em;
+}
+
 .fb-page {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
-  height: 1rem;
 }
 
 .gallery {
@@ -346,11 +374,11 @@ p {
 }
 
 .gallery h1 {
+  font-size: 5em;
   margin: 0;
   padding: 0.5em;
   text-align: center;
   color: rgb(254, 254, 254);
-  font-size: 4.7 em;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.251);
 }
 
@@ -361,6 +389,8 @@ p {
 }
 
 .video-player-wrapper {
+  margin-top: -4em;
+
   display: flex;
   flex-direction: row;
   align-items: center;

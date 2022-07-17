@@ -40,9 +40,8 @@ html {
   backdrop-filter: blur(6px);
   background-color: #bdb58b7a;
   display: flex;
-  justify-content: space-evenly;
-
   align-items: center;
+  justify-content: space-between;
   height: 6em;
   position: fixed;
   width: 100%;
@@ -56,31 +55,37 @@ html {
   text-decoration: none;
 }
 
-.nav-left a {
+.nav-left p {
   font-family: "Cinzel", serif;
   font-weight: 600;
-  font-size: 2.3em;
+  font-size: 2.2em;
   /* margin-left: 0.2em; */
   text-shadow: #0000002d 2px 2px 2px;
-}
-
-.nav-right a {
-  font-weight: 500;
-  font-size: 2em;
-  padding: 0.5em;
+  text-align: center;
+  /* max-width: 25vw; */
 }
 
 .nav-left {
   display: flex;
   align-items: center;
-  gap: 1em;
 }
 
-/* Hover color change */
-
 .nav-left img {
-  width: 3em;
-  height: 3em;
+  width: 3.5em;
+  height: 3.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.nav-right a {
+  font-weight: 600;
+  font-size: 2.2em;
+}
+
+.nav-right {
+  display: flex;
+  gap: 1.3em;
+  padding-right: 1.2em;
 }
 
 video {
@@ -159,11 +164,11 @@ p {
 }
 
 .element h2 {
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 .element p {
-  font-size: 1.6em;
+  font-size: 1.8em;
   font-weight: 500;
 }
 
@@ -173,7 +178,7 @@ p {
 }
 
 .element-btn {
-  margin-top: 0.2em;
+  margin-top: -0.2em;
   padding: 0.4em;
   background-color: #5f5f5f;
   color: white;
@@ -231,7 +236,7 @@ p {
 .text-box {
   background-color: #e3dfcbe3;
   color: #000000;
-  padding: 0.5em;
+  padding: 0.7em;
   width: 68%;
 }
 
@@ -244,7 +249,7 @@ p {
   margin: 0;
   font-weight: 700;
   padding-bottom: 0.1em;
-  font-size: 2.6em;
+  font-size: 2.8em;
   text-align: left;
 }
 
@@ -265,12 +270,11 @@ p {
 }
 
 .social-icons {
-  font-size: 2.2em;
-  gap: 1em;
+  font-size: 2.5em;
 }
 
 .social-icons i {
-  margin-left: 0.5em;
+  margin-left: 0.6em;
 }
 
 .social-icons i:hover {
@@ -301,32 +305,54 @@ p {
 }
 
 .artist-box h1 {
-  margin-top: 0.2em;
+  margin-top: 0.1em;
   margin-bottom: 0.2em;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.251);
 }
 
 .contacts-bg {
   background: linear-gradient(to top, #bdb58b 0%, #17161b 100%);
-  min-height: 50vh;
+  /* min-height: 100vh; */
   position: relative;
 }
 
-.contacts-wrapper h1 {
+.contacts-bg h1 {
+  height: 5vh;
   margin: 0;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   font-size: 5em;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.251);
   color: #eaeaea;
   text-align: center;
 }
 
+.contacts-wrapper p {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
 .contacts-wrapper {
+  background-color: #00000095;
+  margin-top: 4em;
+}
+
+.fb-page {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+}
+
+.social-icons-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8em;
+  gap: 1em;
+  height: 15vh;
 }
 
 .gallery {
@@ -383,32 +409,3 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-/*
-z
-.filler {
-  height: 100vh;
-  width: 60%;
-}
-
-
-
-.contacts-wrapper {
-  position: absolute;
-  font-size: 1.2rem;
-  left: 23rem;
-  top: 10rem;
-  color: white;
-  text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
-}
-
-.fb-page {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
-  height: 1rem;
-} */
-
-/* .filler2 {
-  height: 100vh;
-  width: 30%;
-} */
