@@ -345,6 +345,8 @@ height: 100vh;
 .contacts-icons-wrapper p {
   color: rgb(0, 0, 0);
   font-size: 3em;
+padding-top: 0;
+margin-top: -0.5em;
 }
 
 .contacts-icons-wrapper {
@@ -352,6 +354,8 @@ height: 100vh;
   flex-direction: column;
 justify-content: space-between; 
  text-align: center;
+ margin-bottom: -1.5em;
+
 }
 
 .contacts-flex{
@@ -361,6 +365,7 @@ justify-content: space-between;
   height: 100vh;
   flex-direction: row;
   padding: 10em;
+  margin-left: -5em;
 }
 
 .icons {
@@ -370,8 +375,8 @@ justify-content: space-between;
 }
 
 .social-icons-contacts i {
-  margin-top: -0.3em;
   padding: 0.5em;
+  
 }
 
 .fb-page {
@@ -411,15 +416,21 @@ justify-content: space-between;
 }
 
 .video-selector {
+
   display: flex;
   flex-direction: column;
+  align-items: center;
+
   gap: 1.35em;
   margin-left: 1.3em;
+  background-size: contain
+
 }
 
 .video-selector img {
-  height: auto;
-  width: 20em;
+  max-width: 100%;
+height: 13em;
+
 }
 
 .video-selector img:hover {
@@ -432,11 +443,10 @@ justify-content: space-between;
   margin-right: auto;
   padding: 0;
   margin-top: 0;
-  margin-bottom: 0;
-}
+padding-bottom: 5em;}
 
 .image-gallery img:hover {
-  outline: 2px solid rgb(0, 0, 0);
+  outline: 2px solid #bdb58baf;
 }
 
 .gg-box img {
