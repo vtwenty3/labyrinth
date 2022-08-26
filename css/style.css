@@ -146,16 +146,17 @@ video {
 }
 .element {
   padding: 0.5em;
-  height: 32em;
+  height: 33.5em;
   width: 23em;
   background-color: #d9d9d9;
   z-index: 1;
-  margin-top: -16em;
+  margin-top: -18em;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
 }
 .element img {
   max-width: 100%;
   max-height: 100%;
+
 }
 .element h2,
 p {
@@ -165,12 +166,14 @@ p {
 }
 
 .element h2 {
-  font-size: 2em;
+  font-size: 2.6em;
+  font-weight: 900;
+
 }
 
 .element p {
-  font-size: 1.6em;
-  font-weight: 500;
+  font-size: 2em;
+  font-weight: 600;
 }
 
 .element a {
@@ -224,7 +227,7 @@ p {
   flex-direction: column;
   justify-content: center;
   gap: 8vw;
-  height: 100vh;
+  height: 110vh;
   width: 65%;
 }
 
@@ -233,7 +236,7 @@ p {
   color: inherit; 
 }
 .text-box {
-  height: 24.5em;
+  height: 24em;
   width: 75em;
   background-color: #e3dfcbe3;
   color: #000000;
@@ -241,7 +244,7 @@ p {
 }
 
 .text-box p {
-  font-size: 2.0em;
+  font-size: 2.05em;
   text-align: justify;
 }
 
@@ -303,7 +306,7 @@ p {
 .artist-box p {
   background-color: #e3dfcbe3;
   padding: 1em;
-  font-size: 2.6em;
+  font-size: 2.4em;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
 }
 
@@ -323,41 +326,47 @@ p {
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  min-height: 100vh;
+height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-right: 40vw;
-  gap: 2em;
 }
 
-.contacts-bg h1 {
+.contacts-icons-wrapper h1 {
   padding: 0;
-  margin-top: 0.8em;
-  margin-bottom: 0.4em;
   font-size: 2.5rem;
   color: white;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
 }
 
-.contacts-wrapper p {
-  color: white;
-  font-size: 2.5em;
+.contacts-icons-wrapper p {
+  color: rgb(0, 0, 0);
+  font-size: 3em;
 }
 
-.contacts-wrapper {
-  text-align: center;
-  margin-top: 1.3em;
+.contacts-icons-wrapper {
+  display: flex;
+  flex-direction: column;
+justify-content: space-between; 
+ text-align: center;
 }
 
-.social-icons-contacts {
-  align-items: center;
-  justify-content: center;
-  font-size: 6em;
-  color: white;
+.contacts-flex{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 100vh;
+  flex-direction: row;
+  padding: 10em;
+}
+
+.icons {
+  font-size: 5em;
+  color: rgb(0, 0, 0);
+
 }
 
 .social-icons-contacts i {
@@ -414,7 +423,7 @@ p {
 }
 
 .video-selector img:hover {
-  outline: 2px solid rgb(0, 0, 0);
+  outline: 2px solid #bdb58baf;
 }
 
 .image-gallery {
