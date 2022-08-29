@@ -58,7 +58,8 @@ html {
 .nav-left p {
   font-family: "Cinzel", serif;
   font-weight: 600;
-  font-size: 2.2em;
+  font-size: 2.4em;
+  margin-top: 0.1em;
   /* margin-left: 0.2em; */
   text-shadow: #0000002d 2px 2px 2px;
   text-align: center;
@@ -79,7 +80,7 @@ html {
 
 .nav-right a {
   font-weight: 600;
-  font-size: 2.2em;
+  font-size: 2.4em;
 }
 
 .nav-right {
@@ -131,8 +132,8 @@ video {
 }
 
 .landing-text-wrapper h1 {
-  margin-top: 0.3em;
-  margin-bottom: 0.3em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   font-size: 4.4em;
   text-align: center;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.251);
@@ -213,7 +214,7 @@ p {
   margin-right: auto;
   left: 0;
   right: 0;
-  margin-top: 0.5em;
+  margin-top: 1em;
   margin-bottom: 0.5em;
   padding: 0;
   text-align: center;
@@ -312,50 +313,74 @@ p {
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.251);
 }
 
-.contacts-bg {
-  background: linear-gradient(to top, #bdb58b 0%, #17161b 100%);
-  /* min-height: 100vh; */
-  position: relative;
+.contacts-flex{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
-.contacts-bg h1 {
-  height: 5vh;
+.contacts-bg {
+  background: linear-gradient(to top, #bdb58b 0%, #17161b 100%);
+  position: relative;
+
+}
+
+.contacts-icons-wrapper h1 {
+  font-size: 4.5em;
+  padding-top: 1em;
   margin: 0;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  font-size: 5em;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.251);
   color: #eaeaea;
   text-align: center;
 }
 
-.contacts-wrapper p {
-  text-align: center;
-  color: white;
-  font-size: 3em;
-  padding-left: 5vw;
-  padding-right: 5vw;
+.contacts-icons-wrapper p {
+ display: none;
 }
 
-.contacts-wrapper {
-  background-color: #00000095;
-  margin-top: 4em;
+.contacts-icons-wrapper {
+  display: flex;
+  flex-direction: column;
+justify-content: space-between; 
+ text-align: center;
 }
+
+.social-icons-contacts{
+  flex-direction: column;
+}
+
+
+.icons {
+  color: rgb(255, 255, 255);
+margin: 0;
+
+}
+
+.social-icons-contacts i {
+  padding: 0.4em;
+
+}
+
+.icons a{
+  text-decoration: none;
+  color:#ffffff;
+}
+
 
 .fb-page {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 4em;
 }
 
 .social-icons-contacts {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 8em;
-  gap: 1em;
-  height: 15vh;
-}
+  font-size: 7em;
+  }
 
 .gallery {
   background: url(../img/gallery-background2.jpg);
@@ -370,7 +395,7 @@ p {
   padding: 0.5em;
   text-align: center;
   color: rgb(254, 254, 254);
-  font-size: 3em;
+  font-size: 4.5em;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.251);
 }
 
@@ -393,14 +418,14 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1em;
-  padding: 2em;
+  gap: 0.8em;
+  padding: 1.5em;
 }
 
 .video-selector img {
   height: auto;
   width: 16.5em;
-  min-width: 170px;
+  min-width: 150px;
 }
 
 .image-gallery {
@@ -410,4 +435,10 @@ p {
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 2em;
 }
+
+.footer{
+  font-size: 2em;
+}
+
